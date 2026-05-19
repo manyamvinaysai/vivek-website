@@ -32,21 +32,68 @@
         </a>
 
         <!--========== HEADER ==========-->
-        <header class="l-header" id="header" role="banner">
-            <nav class="nav bd-container" role="navigation" aria-label="Main navigation">
-                <a href="#home" class="nav__logo">VIVEK Biryani</a>
+       <!--========== HEADER ==========-->
+<header class="l-header" id="header">
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
-                        <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+    <nav class="nav bd-container">
 
-                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
-                    </ul>
-                </div>
+        <!-- LOGO -->
+        <a href="#home" class="nav__logo">
+            VIVEK Biryani
+        </a>
+
+        <!--========== MENU ==========-->
+        <div class="nav__menu" id="nav-menu">
+
+            <ul class="nav__list">
+
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">
+                        <i class='bx bx-home nav__icon'></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">
+                        <i class='bx bx-user nav__icon'></i>
+                        <span>About</span>
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#services" class="nav__link">
+                        <i class='bx bx-grid-alt nav__icon'></i>
+                        <span>Services</span>
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#menu" class="nav__link">
+                        <i class='bx bx-food-menu nav__icon'></i>
+                        <span>Menu</span>
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">
+                        <i class='bx bx-phone nav__icon'></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!--========== MOBILE MENU BUTTON ==========-->
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+
+    </nav>
+
+</header>
 
                 <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
                     <i class='bx bx-menu'></i>
@@ -426,21 +473,50 @@
             </section>
 
             <!--===== APP =======-->
-            <section class="app section bd-container" id="app" aria-label="Order on Zomato">
-                <div class="app__container bd-grid">
-                    <div class="app__data">
-                        <h2 class="section-title app__initial">Order on Zomato</h2>
-                        <p class="app__description">Find our restaurant on Zomato and order your favorite biryani and dishes online.
-        Enjoy fast delivery, easy payments, and exciting offers.</p>
+          <!--========== APP / ZOMATO SECTION ==========-->
+<section class="app section bd-container" id="app" aria-label="Order on Zomato">
 
-     <a href="https://zomato.onelink.me/xqzv/ulruoycn"
-   target="_blank"
-   class="button">
-   Order Now on Zomato →
-</a>
-                    </div>
+    <div class="app__container">
 
-                    <img src="assets/img/preview.png" alt="VIVEK Biryani restaurant - Order on Zomato" class="app__img" loading="lazy">
+        <!--========== LEFT CONTENT ==========-->
+        <div class="app__data">
+
+            <span class="section-subtitle">
+                Online Delivery
+            </span>
+
+            <h2 class="section-title app__title">
+                Order Food On <span>Zomato</span>
+            </h2>
+
+            <p class="app__description">
+                Find our restaurant on Zomato and order your favorite
+                biryani, pizza, burgers, and delicious dishes online.
+                Enjoy fast delivery, easy payments, exciting offers,
+                and hot fresh food delivered to your doorstep.
+            </p>
+
+            <a href="https://zomato.onelink.me/xqzv/ulruoycn"
+               target="_blank"
+               class="button app__button">
+
+               Order Now on Zomato →
+            </a>
+
+        </div>
+
+        <!--========== RIGHT IMAGE ==========-->
+        <div class="app__image">
+
+                                <img src="assets/img/preview.png" alt="VIVEK Biryani restaurant - Order on Zomato" class="app__img" loading="lazy">
+
+        </div>
+
+    </div>
+
+</section>
+
+                    
                 </div>
             </section>
 
